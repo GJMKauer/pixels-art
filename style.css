@@ -1,0 +1,43 @@
+* {
+  font-family: monospace;
+}
+
+body {
+  margin-left: 20px;
+}
+
+.color {
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-left: 7px;
+  padding: 2px;
+  width: 40px;
+}
+
+.pixel {
+  background-color: white;
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  margin-bottom: -2px;
+  margin-top: -2px;
+  width: 40px;
+}
+
+#clear-board {
+  background-color: rgb(66, 129, 113);
+  border-radius: 10px;
+  color: rgb(1, 7, 19);
+  font-size: 22px;
+}
+
+#inputs-buttons {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 32px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 320px;
+}
